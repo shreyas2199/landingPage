@@ -46,7 +46,7 @@
                         <a class="nav-link" href="#Home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href=".#About">About Us</a>
+                        <a class="nav-link" href="#About">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#Features">Features</a>
@@ -70,7 +70,7 @@
         </nav>
 
         <header id="Home">
-            <div class="bd-example">
+            <div class="bd-example d-none d-md-block">
                 <div
                     id="carouselExampleCaptions"
                     class="carousel slide"
@@ -149,7 +149,19 @@
             </div>
         </header>
 
-        <img src="images/stats.PNG" id="About" />
+        <div class="container-fluid d-block d-md-none" id="Home_sm">
+            <p>
+                Artificial Intelligence powered recruitment software assisted by
+                Chatbot
+            </p>
+            <button class="btn demo_btn">
+                Request a demo
+            </button>
+        </div>
+
+        <div class="container" id="About">
+            <img src="images/stats.PNG" class="img img-fluid" />
+        </div>
 
         <div class="container">
             <h1 id="Features" class="headings">Features</h1>

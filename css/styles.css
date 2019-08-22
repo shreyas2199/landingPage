@@ -18,12 +18,18 @@
     text-align: right;
     position: absolute;
     right: 15%;
-    bottom: 50%;
+    bottom: 40%;
     max-width: 400px;
     left: auto;
 }
 .carousel-item {
     min-height: 350px;
+}
+#Home_sm {
+    color: white;
+    font-size: 1.5em;
+    padding-top: 100px;
+    background-image: url("../images/carousel1.jpg");
 }
 .demo_btn {
     width: 10em;
@@ -32,10 +38,8 @@
     margin-right: 2em;
 }
 #About {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+    background-image: url("images/stats.PNG");
+    background-size: cover;
 }
 .headings {
     font-weight: 500em;
