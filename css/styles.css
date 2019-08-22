@@ -55,21 +55,50 @@
     margin-bottom: 10%;
 }
 .jumbotron {
-    background-color: grey;
-    margin-bottom: 0px;
+    background-color: rgb(182, 181, 181);
+    padding-bottom: 5px;
 }
 .wrapper {
     padding: 100px auto;
 }
-#Clients {
-    padding-top: 0px;
-    padding-bottom: 50px;
+#Testimonials {
+    padding-top: 10px;
+    font-weight: 500em;
+    text-align: center;
 }
 .owl-carousel {
-    padding: 20px auto;
+    padding-top: 50px;
 }
-.item {
-    position: relative;
-    width: 500px;
-    height: 200px;
+#Contact {
+    margin-top: 100px;
+}
+#footer_textarea {
+    border-color: black;
+    border-width: 4px;
+    border-radius: 5px;
+    background-color: rgb(182, 181, 181);
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    color: black;
+    display: inline-block;
+    float: left;
+}
+::placeholder {
+    color: black;
+}
+::-ms-input-placeholder {
+    color: black;
+}
+#footer_btn {
+    margin-bottom: 50px;
+    border-color: black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.container-fluid {
+    padding-top: 0px;
 }
